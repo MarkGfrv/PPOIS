@@ -1,7 +1,7 @@
 #include "pch.h"
 #include <iostream>
 #include "CppUnitTest.h"
-#include "..\Project35\Header.h"
+#include "..\Project19\Header.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest1
@@ -31,12 +31,20 @@ namespace UnitTest1
             Assert::IsFalse(puzzle.move(15)); //Проверка на невозможность премещения 15, оно находится в углу
         }
 
-        // Тест для проверки недопустимого перемещения числа
-        TEST_METHOD(TestMoveInvalid)
+        // Тест для проверки перемещения числа, которого нет в головоломке
+        TEST_METHOD(TestMoveNumbernotinPuzzle)
         {
             FifteenPuzzle puzzle(4);
             Assert::IsFalse(puzzle.move(16));  // Недопустимый ход
         }
+
+        //Тест для проверки перемещения недопустимого числа
+        TEST_METHOD(TestMoveInvalid)
+        {
+            FifteenPuzzle puzzle(4);
+            Assert::IsFalse(puzzle.move(0));  // Недопустимый ход
+        }
+        
         // Тест для проверки решения головоломки (TestSolvePuzzle)
         TEST_METHOD(TestSolvePuzzle)
         {
@@ -68,7 +76,7 @@ namespace UnitTest1
                 std::cout << "TestInvalidSize failed: Должно было возникнуть исключение." << std::endl;
             }
             catch (const std::exception&) {
-                // Ожидаем исключение
+                // Ожидать исключение
             }
         }
     };
