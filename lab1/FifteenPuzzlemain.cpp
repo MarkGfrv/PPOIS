@@ -1,5 +1,5 @@
 #include <iostream>
-#include "..\Project35\Header.h"
+#include "..\Project35\FifteenPuzzle.h"
 
 int main() {
     setlocale(LC_ALL, "Russian");
