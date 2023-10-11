@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "FifteenPuzzle.h"
 #include <ctime>
 #include <cstdlib>
 
