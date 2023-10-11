@@ -1,7 +1,7 @@
 #include "pch.h"
 #include <iostream>
 #include "CppUnitTest.h"
-#include "..\Project19\Header.h"
+#include "..\Project19\FifteenPuzzle.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest1
