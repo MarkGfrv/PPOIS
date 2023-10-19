@@ -4,12 +4,12 @@
 using namespace std;
 class Customer {
 public:
-	Customer(string Customer_name, string contactInformation);
+	Customer(string customerName, string contactInformation);
 	void placeOrder();
 	void setAddress(string address);
 	string getCustomerName();
 private:
-	string Customer_name;
+	string customerName;
 	string contactInformation;
 	string address;
 };
