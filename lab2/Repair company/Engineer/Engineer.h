@@ -5,7 +5,7 @@
 using namespace std;
 class Engineer: public Employee {
 public:
-	Engineer(string Employee_name, int Employee_ID);
+	Engineer(string employeeName, int employeeID);
 	void perform_task() override;
 	void setCertificationLevel(int level);
 	void setSpecialization(string specialization);
