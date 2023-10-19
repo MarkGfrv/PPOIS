@@ -2,12 +2,12 @@
 #include<iostream>
 #include<string>
 using namespace std;
-Manager::Manager(string Employee_name, int Employee_ID, string subdivision) : Employee(Employee_name, Employee_ID), subdivision(subdivision) {}
+Manager::Manager(string employeeName, int employeeID, string subdivision) : Employee(employeeName, employeeID), subdivision(subdivision) {}
 void Manager::perform_task() {
-    cout << "Manager " << Employee_name << " is working in the " << subdivision << " subdivision" << endl;
+    cout << "Manager " << employeeName << " is working in the " << subdivision << " subdivision" << endl;
 }
 void Manager::performMonthlyMeeting() {
-    cout << "Manager " << Employee_name << " conducts a monthly meeting" << endl;
+    cout << "Manager " << employeeName << " conducts a monthly meeting" << endl;
 }
 void Manager::setProjectsManaged(int projects) {
     projectsManaged = projects;
