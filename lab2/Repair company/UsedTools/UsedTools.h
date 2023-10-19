@@ -8,7 +8,6 @@ public:
 	void useToolforService();
 	void setCondition(string condition);
 private:
-	string nameofUsedTool;
+	string nameOfUsedTool;
 	string toolCondition;
 };
-
