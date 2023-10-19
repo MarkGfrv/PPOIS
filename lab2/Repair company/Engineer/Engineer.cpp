@@ -2,7 +2,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-Engineer::Engineer(string Employee_name, int Employee_ID) : Employee(Employee_name, Employee_ID) {}
+Engineer::Engineer(string employeeName, int employeeID) : Employee(employeeName, employeeID) {}
 void Engineer::perform_task() {
     cout << "Engineer is doing technical job" << endl;
 }
@@ -13,5 +13,5 @@ void Engineer::setSpecialization(string specialization) {
     this->specialization = specialization;
 }
 void Engineer::performQualityCheck() {
-    cout << "Engineer " << Employee_name << " is performing a quality check" << endl;
+    cout << "Engineer " << employeeName << " is performing a quality check" << endl;
 }
