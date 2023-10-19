@@ -16,7 +16,8 @@ private:
 	Service& service;
 	Employee& workingEmployee;
 	string appointmentDate;
-	string Employee_name;
+	string employeeName;
 };
+
 
 
