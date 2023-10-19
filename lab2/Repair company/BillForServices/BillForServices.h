@@ -12,6 +12,6 @@ public:
 private:
 	Customer& customer;
 	Service& service;
-	double TotalCost;
+	double totalCost;
 	string paymentStatus;
 };
