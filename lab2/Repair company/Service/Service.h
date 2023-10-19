@@ -4,15 +4,15 @@
 using namespace std;
 class Service {
 public:
-	Service(string ServiceType, double ServiceCost);
+	Service(string serviceType, double serviceCost);
 	void PerformingService();
 	void setDuration(int duration);
 	void setMaterialsUsed(string materials);
 	string getServiceType();
 	double getServiceCost();
 protected:
-	string ServiceType;
-	double ServiceCost;
+	string serviceType;
+	double serviceCost;
 	int duration;
 	string materialsUsed;
 };
