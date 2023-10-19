@@ -4,11 +4,11 @@
 using namespace std;
 class Employee {
 public:
-	Employee(string Employee_name, int Employee_ID);
+	Employee(string employeeName, int employeeID);
 	void setSalary(double salary);
 	virtual void perform_task() = 0;
 protected:
-	string Employee_name;
-	int Employee_ID;
+	string employeeName;
+	int employeeID;
 	double salary;
 };
