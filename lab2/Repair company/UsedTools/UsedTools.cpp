@@ -2,7 +2,7 @@
 #include<string>
 #include "UsedTools.h"
 using namespace std;
-UsedTools::UsedTools(string nameofUsedTool) : nameOfUsedTool(nameofUsedTool) {}
+UsedTools::UsedTools(string nameOfUsedTool) : nameOfUsedTool(nameOfUsedTool) {}
 
 void UsedTools::useToolforService() {
     cout << "Currently using " << nameOfUsedTool << " for the repair service" << endl;
