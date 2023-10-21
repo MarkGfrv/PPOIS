@@ -4,7 +4,7 @@
 using namespace std;
 class UsedTools {
 public:
-	UsedTools(string nameofUsedTool);
+	UsedTools(string nameOfUsedTool);
 	void useToolforService();
 	void setCondition(string condition);
 private:
