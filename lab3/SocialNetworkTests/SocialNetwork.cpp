@@ -190,7 +190,7 @@ public:
         const std::vector<User*>& members = group.GetListOfGroupMembers();
         Assert::IsTrue(members.size() == 1);
 
-        // Можно также проверить, что добавленный пользователь действительно является членом группы.
+        //Проверка, что добавленный пользователь действительно является членом группы.
         Assert::IsTrue(std::find(members.begin(), members.end(), &member) != members.end());
     }
 
@@ -203,7 +203,7 @@ public:
         const std::vector<User*>& admins = group.GetListOfAdministrators();
         Assert::IsTrue(admins.size() == 1);
 
-        // Проверяем, что добавленный пользователь действительно является администратором группы.
+        // Проверка, что добавленный пользователь действительно является администратором группы.
         Assert::IsTrue(std::find(admins.begin(), admins.end(), &admin) != admins.end());
     }
 };
