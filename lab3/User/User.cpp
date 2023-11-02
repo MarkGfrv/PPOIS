@@ -17,7 +17,7 @@ void User::ChangePassword(string newPassword) {
 void User::SendInvite(User& friendd) {
 	cout << "Friend request sended to " << friendd.nickname << endl;
 }
-bool User::isBlackListed(const User& user) {
+bool User::IsBlackListed(const User& user) {
 	for (const User* blockedUser : blackList.listOfBlockedUsers) {
 		if (blockedUser == &user) {
 			cout << "Пользователь находится в черном списке!" << endl;
