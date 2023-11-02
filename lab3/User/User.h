@@ -12,7 +12,7 @@ public:
 	void ChangeNickname(string newNickname);
 	void ChangePassword(string newPassword);
 	void SendInvite(User& friendd);
-	bool isBlackListed(const User& user);
+	bool IsBlackListed(const User& user);
 	string GetNickname() const;
 	string GetPassword() const;
 protected:
