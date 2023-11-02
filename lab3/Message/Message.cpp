@@ -8,7 +8,7 @@ void Message::ShowMessage() {
 	cout << "Read status: " << readStatus << endl;
 }
 bool Message::canSendMessage() {
-	if (receiver->isBlackListed(*sender)) {
+	if (receiver->IsBlackListed(*sender)) {
 		cout << "Message can not be delevered!" << endl;
 		return false;
 	}
