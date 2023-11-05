@@ -1,5 +1,6 @@
 <h1 align="center">Лабораторная работа №4</h1>
 <h2 align="center">Обобщенное программирование. Стандартная библиотека шаблонов (STL).</h2>
+<h3 align="center">Ориентированный граф(Упорядоченные списки рёбер).</h3>
 
 
 **Цель:** Получить навыки обобщенного программирования с использованием шаблонов.
@@ -84,4 +85,47 @@
  -   removeIncidentEdges - метод для удаления рёбер, инцидентных заданной вершине.
    
  ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/b37f43f6-5386-4abd-addb-f6707783ab1e)
+
+**Реализованные тесты:**
+ - Тест на проверку содержания указанных вершин в графе.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/9494cc9c-fe40-4238-8e92-62b5307c9e5c)
+
+ - Тест на проверку наличия рёбер в графе между указанными вершинами.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/bc6d055f-a878-497f-bba7-bc00c7d3f7a7)
+
+ - Тест на проверку корректного количества вершин.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/c8f2360a-2a20-4fa6-b55d-9ee05c1eb9bc)
+
+ - Тест на проверку корректного количества рёбер.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/90891579-e867-4951-bfbf-554ac8a37040)
+
+ - Тест на проверку корректного добавления вершины.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/bc167edb-5944-48c0-8e40-61e06b43def3)
+
+ - Тест на проверку корректного добавления ребра между вершинами.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/0cec8de8-7b82-494f-bf14-882bc9848c4d)
+
+ - Тест на проверку корректного удаления вершины графа.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/6cb2681b-cba1-4a04-87a2-93ab495ddaf8)
+
+ - Тест на проверку корректного удаления ребра между указанными вершинами графа.
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/73881543-f39f-41ba-85f5-9a6f71011ed4)
+
+
+ **Покрытие тестами кода:**
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/9bb7f148-987d-4c90-87ef-460a37a16f8c)
+
+ ![image](https://github.com/MarkGfrv/PPOIS/assets/113544592/c12ba71b-2f03-4f97-bbf7-371117b4ec59)
+
+ 
+
 
